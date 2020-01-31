@@ -4,9 +4,9 @@ document.getElementsByClassName("right-column")[0].addEventListener("mouseover",
 document.getElementsByClassName("right-column")[0].addEventListener("mouseout", mouseOut);
 
 
-  var idVar = setInterval(() => { 
+  let idVar = setInterval(() => { 
 
-  }, 400);
+  }, 500);
 
 
 function mouseOver() {
